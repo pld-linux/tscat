@@ -1,4 +1,3 @@
-# TODO: proper group, pl desc  
 Summary:	Simple Filter that adds Timestamps to Stdin
 Name:		tscat
 Version:	1.0
@@ -6,7 +5,7 @@ Release:	0.1
 Source0:	http://www.gerg.ca/software/tscat/%{name}-%{version}.tar.gz
 # Source0-md5:	1337bd212bbef8f4f9518f1f2d50e088
 License:	MIT/X Consortium License
-Group:		Productivity/Text/Utilities
+Group:		Applications/Text
 URL:		http://www.gerg.ca/software/tscat/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -23,11 +22,11 @@ start time, or deltas since the previous line (previous timestamp).
 %setup -q
 
 %build
-%__make \
+%{__make} \
 	PREFIX="%{_prefix}" \
 	BIN_DIR="%{_bindir}" \
 	MAN_DIR="%{_mandir}/man1" \
-	CFLAGS="%{optflags}"
+	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
