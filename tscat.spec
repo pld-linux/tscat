@@ -8,9 +8,6 @@ Group:		Applications/Text
 Source0:	http://www.gerg.ca/software/tscat/%{name}-%{version}.tar.gz
 # Source0-md5:	1337bd212bbef8f4f9518f1f2d50e088
 URL:		http://www.gerg.ca/software/tscat/
-BuildRequires:	autoconf
-BuildRequires:	automake
-BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
