@@ -1,5 +1,5 @@
 Summary:	Simple Filter that adds Timestamps to Stdin
-Summary(pl.UTF-8):   Prosty filtr dodający znaczniki czasowe do standardowego wejścia
+Summary(pl.UTF-8):	Prosty filtr dodający znaczniki czasowe do standardowego wejścia
 Name:		tscat
 Version:	1.0
 Release:	0.1
