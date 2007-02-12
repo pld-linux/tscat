@@ -1,5 +1,5 @@
 Summary:	Simple Filter that adds Timestamps to Stdin
-Summary(pl):	Prosty filtr dodaj±cy znaczniki czasowe do standardowego wej¶cia
+Summary(pl.UTF-8):   Prosty filtr dodajÄ…cy znaczniki czasowe do standardowego wejÅ›cia
 Name:		tscat
 Version:	1.0
 Release:	0.1
@@ -16,11 +16,11 @@ prepends a timestamp to each line, and writes to standard output.
 Timestamps can be absolute (current time of day), relative to process
 start time, or deltas since the previous line (previous timestamp).
 
-%description -l pl
-tscat to prosty filtr czytaj±cy linie ze standardowego wej¶cia,
-poprzedzaj±cy ka¿d± liniê znacznikiem czasowym i wypisuj±cy na
-standardowe wyj¶cie. Znaczniki czasowe mog± byæ bezwzglêdne (aktualna
-godzina), wzglêdem czasu uruchomienia procesu lub ró¿nicami w stosunku
+%description -l pl.UTF-8
+tscat to prosty filtr czytajÄ…cy linie ze standardowego wejÅ›cia,
+poprzedzajÄ…cy kaÅ¼dÄ… liniÄ™ znacznikiem czasowym i wypisujÄ…cy na
+standardowe wyjÅ›cie. Znaczniki czasowe mogÄ… byÄ‡ bezwzglÄ™dne (aktualna
+godzina), wzglÄ™dem czasu uruchomienia procesu lub rÃ³Å¼nicami w stosunku
 do poprzedniej linii (poprzedniego znacznika czasowego).
 
 %prep
